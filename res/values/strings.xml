@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Actionbar Experiment</string>
+    <string name="action_Setting">Settings</string>
+    <string name="ui_tabname_breakfast">breakfast</string>
+    <string name="ui_tabname_lunch">lunch</string>
+    <string name="ui_tabname_dinner">dinner</string>
+    <string name="ui_tabname_snack">snack</string>
+    <string name="ui_menu_search">search</string>
+    <string name="ui_menu_send">send</string>
+    <string name="ui_menu_share">share</string>
+    <string name="ui_menu_about">about</string>
+    <string name="ui_menu_feedback">feedback</string>
+    <string name="ui_menu_quit">quit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_breakfast_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cornezcom.actionbarexperiment.Breakfast">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/black">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/breakfast"
+            android:id="@+id/imageView"
+            android:contentDescription="@string/ui_tabname_breakfast"
+            android:orientation="horizontal"
+            />
+    </LinearLayout>
+</RelativeLayout>
