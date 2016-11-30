@@ -6,10 +6,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Context;
-import android.view.Menu;
-import android.view.MenuItem;
-
-
 
 
 public class MainActivity extends AppCompatActivity {
@@ -33,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         ActionBar.Tab dinnerTab = actionBar.newTab().setText(getString(R.string.ui_tabname_dinner));
         ActionBar.Tab snackTab = actionBar.newTab().setText(getString(R.string.ui_tabname_snack));
 
-        breakfastFragment = new Breakfast();
-        snackFragment = new Snack();
-        lunchFragment = new Lunch();
+        breakfastFragment = new Appetizer();
+        snackFragment = new Dessert();
+        lunchFragment = new Entree();
         dinnerFragment = new Dinner();
 
         breakfastTab.setTabListener(new MyTabsListener(breakfastFragment, getApplicationContext()));
@@ -46,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         actionBar.addTab(breakfastTab);
         actionBar.addTab(lunchTab);
         actionBar.addTab(snackTab);
-        actionBar.addTab(dinnerTab);
+        //actionBar.addTab(dinnerTab);
 
         if(savedInstanceState != null){
             actionBar.setSelectedNavigationItem(savedInstanceState.getInt(TAB_KEY_INDEX, 0));
@@ -74,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
         public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction ft){
             ft.remove(fragment);
         }
-
         /*@Override
         public boolean onCreateOptionsMenu(Menu menu){
             getMenuInflater().inflate(R.menu.my, menu);
@@ -96,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         */
+
 
     }
 }

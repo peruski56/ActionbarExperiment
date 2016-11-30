@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Actionbar Experiment</string>
     <string name="action_Setting">Settings</string>
-    <string name="ui_tabname_breakfast">breakfast</string>
-    <string name="ui_tabname_lunch">lunch</string>
+    <string name="ui_tabname_breakfast">Appetizer</string>
+    <string name="ui_tabname_lunch">Entree</string>
     <string name="ui_tabname_dinner">dinner</string>
-    <string name="ui_tabname_snack">snack</string>
+    <string name="ui_tabname_snack">Dessert</string>
     <string name="ui_menu_search">search</string>
     <string name="ui_menu_send">send</string>
     <string name="ui_menu_share">share</string>

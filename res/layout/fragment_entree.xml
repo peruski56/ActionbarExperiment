@@ -5,7 +5,7 @@
     android:id="@+id/activity_lunch_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cornezcom.actionbarexperiment.Lunch">
+    tools:context="cornezcom.actionbarexperiment.Entree">
 
     <LinearLayout
         android:orientation="vertical"
